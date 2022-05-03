@@ -10,7 +10,7 @@ const nuevoNum = 7;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 == 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * 4 === 40;
@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-return str;  
+return str; 
 }
 
 function suma(x, y) {
@@ -89,9 +89,13 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+  if(num >50){
+    return true
+    }  else{
+      return false
+    }
+  }
   
-}
-
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
@@ -102,7 +106,6 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
 }
 
 function esImpar(num) {
