@@ -176,7 +176,7 @@ function esPositivo(numero) {
 return false;
  } 
  else if(numero > 0){
-   return " Es positivo";
+   return "Es positivo";
   }
   else {
     return "Es negativo";
