@@ -179,8 +179,8 @@ return false;
    return " Es positivo";
   }
   else {
-    return "es negativo";
-  }  
+    return "Es negativo";
+  }
 }
 
 function agregarSimboloExclamacion(str) {
