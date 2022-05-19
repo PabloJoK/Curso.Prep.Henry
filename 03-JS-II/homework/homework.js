@@ -8,13 +8,8 @@ function obtenerMayor(x, y) {
   if(x > y){
     return x;
   } 
-  else {
     return y;
   }
-  if (x === Y){
-    return x;
-  }
-}
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
@@ -34,6 +29,7 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+
 }
 
 function saludo(idioma) {
@@ -125,6 +121,7 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  
 }
 
 
