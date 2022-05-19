@@ -19,7 +19,7 @@ if(edad >= 18){
   return "Allowed";
   } 
   else {
-    return "Not Allowed"
+    return "Not allowed"
   }
 }
   
@@ -36,7 +36,7 @@ else if(status === 2){
   return "Away";
 }
 else{
-  return "offline"
+  return "Offline"
 }
 }
 
